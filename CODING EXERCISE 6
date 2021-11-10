@@ -1,0 +1,25 @@
+package selfprogramming;
+import java.util.Scanner;
+public class Q6 {
+
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner (System.in);
+		
+		int sum,num;
+		sum = 0;
+		
+		System.out.print("Enter a number: ");
+		num = in.nextInt();
+		
+		while (num != -1)
+			{
+			sum = sum + num;
+			System.out.print("Enter a number: ");
+			num = in.nextInt();
+			}
+		System.out.println("Sum = " +sum);
+
+	}
+
+}
