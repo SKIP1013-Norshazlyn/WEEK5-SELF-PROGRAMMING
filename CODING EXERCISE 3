@@ -1,0 +1,28 @@
+package selfprogramming;
+import java.util.Scanner;
+public class Q3 {
+
+	public static void main(String[] args)
+	{
+		Scanner in = new Scanner(System.in);
+		
+		double min = 2500;
+		double income;
+		int age;
+		String name;
+		
+		System.out.print("Enter your name: ");
+		name = in.nextLine();
+		System.out.print("Enter your age: ");
+		age = in.nextInt();
+		System.out.print("Enter your income: ");
+		income = in.nextDouble();
+		
+		if ((age >= 20) && (income < min))
+			System.out.print(name +",your loan is pass");
+		else
+			System.out.print(name +",your loan is fail");
+
+	}
+
+}
