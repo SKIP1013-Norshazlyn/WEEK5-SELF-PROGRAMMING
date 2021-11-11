@@ -1,0 +1,27 @@
+package selfprogramming;
+import java.util.Scanner;
+public class Q9 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner in = new Scanner (System.in);
+		
+		int age;
+	    double weight;
+	    
+	    System.out.print("Enter your age: ");
+	    age = in.nextInt();
+	    
+	    System.out.print("Enter your weight: ");
+	    weight = in.nextDouble();
+
+	    //applying condition on age and weight  
+	    if(age>=18 && weight>50)
+	    {
+	    	System.out.println("You are eligible to donate blood"); 
+	    }
+
+	}
+
+}
